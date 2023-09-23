@@ -18,6 +18,8 @@ a{
 #navbar{
     display:flex;
     justify-content: space-between;
+    align-items: center;
+    background-color: chocolate;
 }
 #navbar img {
     width: 80px;
@@ -26,8 +28,19 @@ a{
 #navbar ul{
     display:flex;
     margin-right:100px;
-
-
 }
-
+#navbar ul li a {
+    padding: 15px 20px ;
+    color :aliceblue;
+    font-weight: 600;
+}
+#navbar ul li a:hover{
+    border-bottom: 2px solid orange;
+}
+header.content{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items:center;
+}
 /*Header End*/
